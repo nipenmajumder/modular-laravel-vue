@@ -1,11 +1,11 @@
+
 const moduleRoute = {
     path: "/",
-    component: () => import('./Module.vue'),
+    component: import('./Module.vue'),
     children: [
         {
             path: "/",
-            name: 'app',
-            component: () => import('./views/partials/App.vue')
+            component: import('./views/partials/App.vue')
         },
     ]
 };
