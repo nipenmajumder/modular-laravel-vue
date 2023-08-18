@@ -14,3 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/{any?}', 'backend.layouts.app')->where('any', '.*');
+
+Route::get('test', function () {
+    return 'Hello';
+})->name('test');
