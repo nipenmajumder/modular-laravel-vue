@@ -1,7 +1,7 @@
 const moduleRoute = {
-    path: "/",
-    name: 'dashboard',
-    component: () => import('./views/dashboard.vue'),
+    path: "/user",
+    name: 'user',
+    component: () => import('./views/UserList.vue'),
 };
 
 export default router => {

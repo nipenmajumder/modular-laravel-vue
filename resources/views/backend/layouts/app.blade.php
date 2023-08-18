@@ -35,6 +35,7 @@
     </div>
     <div id="modals"></div>
     @include('backend.layouts.js')
+    @routes
     @stack('js')
 </body>
 

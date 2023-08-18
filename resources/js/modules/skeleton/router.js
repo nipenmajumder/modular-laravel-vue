@@ -1,13 +1,7 @@
-
 const moduleRoute = {
     path: "/",
-    component: import('./Module.vue'),
-    children: [
-        {
-            path: "/",
-            component: import('./views/partials/App.vue')
-        },
-    ]
+    name: "skeleton" ,
+    component: () => import('./Module.vue'),
 };
 
 export default router => {

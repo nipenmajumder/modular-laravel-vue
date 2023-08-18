@@ -1,4 +1,5 @@
 <script setup>
+
 import Sidebar from "./sidebar.vue";
 import Navbar from "./navbar.vue";
 import Preloader from "./preloader.vue";
