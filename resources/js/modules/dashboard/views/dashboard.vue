@@ -1,13 +1,6 @@
 <script>
-import * as ziggyRoute from "ziggy-js";
-
 export default {
     name: "dashboard",
-    computed: {
-        ziggyRoute() {
-            return ziggyRoute
-        }
-    }
 }
 </script>
 
@@ -25,7 +18,6 @@ export default {
                                     badge in
                                     your profile.
                                 </p>
-                                <a :href="$ziggyRoute('test')">Test</a>
                                 <a href="javascript:;" class="btn btn-sm btn-outline-primary">View Badges</a>
                             </div>
                         </div>
